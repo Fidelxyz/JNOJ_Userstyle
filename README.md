@@ -6,21 +6,21 @@ A Userstyle for JNOJ.
 
 1. Install **Stylus** plugin for your browser.
 
-  - Chrome: 
+    - Chrome: 
     
-    https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne (You will need a VPN if you are in China.)
+        https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne (You will need a VPN if you are in China.)
 
-    OR Try:
+        OR Try:
 
-    http://www.crx4.com/28521.html (No VPN needed.)
+        http://www.crx4.com/28521.html (No VPN needed.)
 
-  - Firefox:
+    - Firefox:
     
-    https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/
+        https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/
 
 2. Install the style file.
 
-  **[CLICK ME](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/JNOJ_Style.user.css)**
+    **[CLICK ME](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/JNOJ_Style.user.css)**
 
 # Captures
 
