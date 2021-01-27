@@ -2,19 +2,11 @@
 
 A Userstyle for JNOJ.
 
-# Captures
-
-![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/1.webp)
-
-![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/2.webp)
-
-![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/3.webp)
-
 # Install
 
 1. Install **Stylus** plugin for your browser.
 
-  Chrome: 
+  - Chrome: 
     
     https://chrome.google.com/webstore/detail/clngdbkpkpeebahjckkjfobafhncgmne (You will need a VPN if you are in China.)
 
@@ -22,8 +14,18 @@ A Userstyle for JNOJ.
 
     http://www.crx4.com/28521.html (No VPN needed.)
 
-  Firefox: https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/
+  - Firefox:
+    
+    https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/
 
 2. Install the style file.
 
   **[CLICK ME](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/JNOJ_Style.user.css)**
+
+# Captures
+
+![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/1.webp)
+
+![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/2.webp)
+
+![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/3.webp)
