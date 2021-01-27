@@ -24,7 +24,7 @@
 
 # 截图
 
-![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/1.webp)
+<!-- ![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/1.webp) -->
 
 ![](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/Images/2.webp)
 
