@@ -1,0 +1,1184 @@
+/* ==UserStyle==
+@name           JNOJ
+@namespace      github.com/fidelxyz/JNOJ_Userstyle
+@version        1.0.0
+@description    A style for JNOJ.
+@author         Fidel Yin
+==/UserStyle== */
+@-moz-document domain("39.108.130.48") {
+    /* Font */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpOqc.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpOqc.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpOqc.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpOqc.woff2) format('woff2');
+        unicode-range: U+0370-03FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpOqc.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpOqc.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bbck.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bbck.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bbck.woff2) format('woff2');
+        unicode-range: U+0370-03FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bbck.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpOqc.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpOqc.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpOqc.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUehpOqc.woff2) format('woff2');
+        unicode-range: U+0370-03FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpOqc.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpOqc.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2) format('woff2');
+        unicode-range: U+0370-03FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
+    }
+
+    /* 选中内容的样式 */
+    *::selection {
+        background-color: #cce2ff;
+    }
+
+    *::-moz-selection {
+        background-color: #cce2ff;
+    }
+
+    *::-webkit-selection {
+        background-color: #cce2ff;
+    }
+
+    /* 滚动条 */
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 10px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #5e72e4;
+    }
+
+    html,
+    body {
+        background-color: #f4f5f7 !important;
+        font-family: 'open sans' !important;
+        font-size: 16px;
+        color: rgb(0, 0, 0, .75);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600 !important;
+        margin: 1.5em 0 .5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.25em;
+    }
+
+    h4 {
+        font-size: 1.15em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    h6 {
+        font-size: .95em;
+    }
+
+    code,
+    .hljs {
+        font-family: consolas, monospace, "Courier New";
+    }
+
+    pre {
+        margin: .5em 0 !important;
+        padding: .3em .5em !important;
+        border: #ddd solid 1px !important;
+        background: #f8f8f8;
+        border-radius: 3px;
+        overflow: auto;
+        font-size: .875em;
+        font-family: consolas, monospace, "Courier New";
+    }
+
+    a {
+        transition: all .15s;
+        color: #5e72e4;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 1rem 0;
+        line-height: 1.8em;
+    }
+
+    ol {
+        line-height: 1.8em;
+    }
+
+    .btn {
+        outline: none !important;
+        border: none !important;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        transition: all .15s ease;
+        margin-bottom: 6px;
+        padding: 8px 18px;
+    }
+
+    /* Table */
+    table,
+    th,
+    td {
+        border: none !important;
+    }
+
+    tr {
+        border-bottom: 1px solid #e8e8e8;
+        background-color: unset !important;
+    }
+
+    /* Input Box */
+    .am-input-group,
+    .input-group {
+        transition: box-shadow .15s ease;
+    }
+
+    .input-group > input,
+    .input-group > select {
+        transition: box-shadow .15s ease;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+        min-height: 25px;
+    }
+
+    .input-group > input:focus,
+    .input-group > select:focus {
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05);
+    }
+
+    .input-group-addon {
+        border-radius: 4px 0 0 4px;
+        border: none;
+        box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+    }
+
+    .input-group button {
+        border-radius: 4px !important;
+        box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+    }
+
+    .input-group button {
+        margin-left: 3px;
+    }
+
+    .input-group button:hover {
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05) !important;
+    }
+
+    .am-input-group-sm > .am-form-field,
+    .am-input-group-sm > .am-input-group-btn > .am-btn,
+    .am-input-group-sm > .am-input-group-label {
+        font-size: 1.35rem !important;
+    }
+    .am-input-group-label {
+        background: transparent;
+        border: none;
+    }
+    .am-input-group-danger,
+    .am-input-group-primary {
+        box-shadow: none;
+    }
+    .am-input-group-danger > .am-input-group-label,
+    .am-input-group-primary > .am-input-group-label {
+        border-radius: .5rem !important;
+        outline: none !important;
+        letter-spacing: .05em;
+        transition: all .15s ease;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        color: #fff !important;
+        margin-bottom: 6px;
+        height: 33.4px;
+    }
+    .am-input-group-danger > .am-input-group-label:hover,
+    .am-input-group-primary > .am-input-group-label:hover {
+        box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+    }
+    .am-input-group-danger > .am-input-group-label:active,
+    .am-input-group-primary > .am-input-group-label:active {
+        box-shadow: none;
+    }
+    .am-input-group-danger > .am-input-group-label {
+        border-color: #f5365c;
+        background-color: #f5365c;
+        /*#ec0c38*/
+    }
+    .am-input-group-primary > .am-input-group-label {
+        border-color: #5e72e4;
+        background-color: #5e72e4;
+        border-radius: .5rem !important;
+    }
+    textarea {
+        box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
+        border: none !important;
+    }
+    textarea:focus {
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05) !important;
+    }
+    .lg-input-title {
+        margin-bottom: 5px;
+        border-radius: 5px;
+        border-color: #ddd;
+    }
+
+    /* Header Bar */
+    #header {
+        display: none !important;
+    }
+
+    .navbar {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+    }
+
+    .col-md-2 {
+        width: calc(16.67% - .5rem);
+        padding: 1rem;
+        float: right;
+    }
+
+    .col-md-3 {
+        width: calc(25% - .5rem);
+        padding: 1rem;
+        float: right;
+    }
+
+    .col-md-4 {
+        width: calc(33.33% - .5rem);
+        float: right;
+        margin: 0 0 1.3rem;
+        padding: 1rem;
+    }
+
+    .col-md-8 {
+        width: calc(66.67% - .5rem);
+    }
+
+    .col-md-9 {
+        width: calc(75% - .5rem);
+        margin: 0 0 1.3rem;
+        padding: 1rem;
+    }
+
+    .col-md-10 {
+        width: calc(83.33% - .5rem);
+        padding: 1rem;
+    }
+
+    .jumbotron h1 {
+        margin: .2em 0;
+    }
+
+    .jumbotron p {
+        margin: .1em 0;
+    }
+
+    .blog-main {
+        margin: 0 3rem;
+    }
+
+    /* Card */
+    .news-view,
+    .container > .row > *,
+    .group-view > .row > *,
+    #p0 > .col-md-9,
+    .problem-left,
+    .problem-right,
+    .solution-index #w1,
+    .solution-search,
+    .rating-index .row .col-md-8,
+    .contest-index,
+    .user-view,
+    .stats-content,
+    .gutter,
+    .nav-tabs,
+    .pagination,
+    .card {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 2rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    /* Tabs */
+    .nav-tabs {
+        --main-color: #3498db;
+        margin: 1rem 3rem;
+        display: flex;
+        padding: 0 .5em;
+    }
+
+    .pagination > li > a {
+        border: none !important;
+    }
+
+    .nav-tabs > li {
+        margin: 0;
+    }
+
+    .nav-tabs > li > a {
+        padding: 20px .8em;
+        color: inherit;
+        border: none !important;
+        background: none !important;
+        margin: 0;
+    }
+
+    .nav-tabs > li > a > span {
+        padding: 0 .3em;
+    }
+
+    .nav-tabs > li.active > a {
+        color: var(--main-color) !important;
+    }
+
+    .nav-tabs > li > a::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        transition: .233s ease all;
+    }
+
+    .nav-tabs > li > a:hover::before {
+        margin: 0;
+        width: 100%;
+        background-color: #bfbfbf;
+    }
+
+    .nav-tabs > li.active > a::before {
+        margin: 0 .5em;
+        width: calc(100% - 1em);
+        background-color: var(--main-color);
+        content: '';
+    }
+
+    .nav-tabs > li.active > a:hover::before {
+        margin: 0;
+        width: 100%;
+    }
+
+    .pagination {
+        margin: .5rem 0 1rem;
+    }
+
+    /* Content */
+    .wrap > .container {
+        background-color: unset;
+        margin: 0 5rem;
+        width: auto;
+        padding: 0;
+    }
+
+    .content-wrapper {
+        border-top: none;
+        padding: 0;
+    }
+
+    .container .row,
+    .container .breadcrumb {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container .breadcrumb {
+        margin-bottom: 1rem;
+    }
+
+    /* Problem */
+    .container .row .problem-view > h1 {
+        font-size: 2em;
+        margin: .6em;
+    }
+
+    .math {
+        font-size: 1em;
+    }
+
+    .sample-test {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sample-test > * {
+        width: calc(50% - 1rem);
+        overflow: hidden;
+        border: none !important;
+    }
+
+    .sample-test h4 {
+        border: none !important;
+    }
+
+    .input {
+        margin-right: .5em;
+    }
+
+    .output {
+        margin-left: .5em;
+    }
+
+    .btn-copy {
+        font-size: .7em;
+        float: right;
+        padding: 0 5px;
+        outline: none !important;
+        border: none !important;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        transition: all .15s ease;
+        margin-bottom: 6px;
+        border-radius: 3px;
+        background-color: #5e72e4 !important;
+        color: #fff !important;
+        line-height: 1.5;
+    }
+
+    /* News */
+    .news-view {
+        max-width: unset;
+        width: 80%;
+        padding: 2rem;
+    }
+
+    /* User */
+    .user-view {
+        padding: 1rem 2rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/site.*") {
+    .container > .row {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .breadcrumb {
+        margin: 1rem 7rem !important;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/problem.*") {
+    .panel {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 2rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+    
+    .container > .row {
+        width: 100%;
+    }
+
+    .container > .row > #p0 > .col-md-3 {
+        padding: 0;
+    }
+
+    .container > .row > #p0 > .col-md-3 > * {
+        margin-bottom: 1rem;
+    }
+
+    .col-md-3 > :first-child .panel-body {
+        padding: 0;
+    }
+
+    .col-md-3 > :first-child .sr-only {
+        display: none;
+    }
+
+    .col-md-3 > :first-child .input-group {
+        width: 100%;
+    }
+
+    .col-md-3 > :first-child .input-group input {
+        height: 36px;
+        border-radius: 3px !important;
+    }
+
+    .col-md-3 > :first-child .input-group-btn {
+        width: 1%;
+    }
+
+    .col-md-3 > :first-child .btn {
+        margin: 0;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/p/.*") {
+    body {
+        overflow: auto;
+    }
+
+    .wrap {
+        height: auto;
+        display: initial;
+    }
+
+    .wrap > .container {
+        margin: 0;
+        /*         overflow: auto; */
+    }
+
+    /* Problem */
+    .container .row .problem-view {
+        width: calc(66.67% - .5em);
+    }
+
+    /* Problem New */
+    .problem-info {
+        width: calc(33.33% - .5em);
+        float: right;
+        margin: 0 0 1.3rem;
+        padding: 1rem;
+    }
+
+    .problem-container {
+        background: none;
+        padding: unset;
+        height: auto;
+    }
+
+    .problem-header {
+        padding-bottom: 220px;
+        background: linear-gradient(87deg, #414345 0, #232526 100%) !important;
+    }
+
+    .problem-title {
+        font-size: 2.3em;
+        font-weight: bold;
+        margin: 0 3rem;
+        color: white;
+    }
+
+    .problem-header .problem-meta {
+        color: white;
+        font-size: .9em;
+        font-weight: 500;
+        margin: 5.5rem 3rem 0 0;
+        height: 3.1rem;
+        width: 20rem;
+    }
+
+    .problem-header .problem-meta p {
+        margin: unset;
+    }
+
+    .problem-header .problem-meta .separator {
+        height: 100%;
+        margin: 0 .7rem;
+        background: white;
+    }
+
+    .problem-header .problem-meta div:last-child {
+        margin: 1rem .5rem;
+    }
+
+    .problem-header .problem-meta div:last-child a {
+        background-color: #5cb85c;
+        color: white;
+        border-radius: 3px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        transition: all .15s ease;
+        margin: 0;
+        padding: 8px 18px;
+        text-decoration: none;
+    }
+
+    .problem-header .problem-meta div:last-child a:hover {
+        background-color: rgba(92, 184, 92, .8);
+        color: rgba(255, 255, 255, .9);
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05) !important;
+    }
+
+    .problem-splitter {
+        margin-top: -200px;
+        height: auto;
+        flex: 0;
+    }
+
+    .problem-left,
+    .problem-right {
+        margin: 1rem;
+        padding: 1.5rem;
+        height: auto;
+        height: max-content;
+        min-width: 30%;
+    }
+
+    .problem-right .problem-editor {
+        height: auto;
+    }
+
+    .gutter {
+        margin: 1rem 0;
+    }
+
+    /* Problem Statistics */
+    .stats-content,
+    .solution-index {
+        padding: .05rem 2rem 2rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/status.*") {
+    .solution-index {
+        padding: 0 !important;
+    }
+
+    /* Status */
+    .solution-search {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .solution-index #p0 > #w1 {
+        padding: 1rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/rating.*") {
+
+    /* Rating */
+    .rating-index .row {
+        margin: 0;
+        width: 100%;
+    }
+
+    .rating-index .row .col-md-8 {
+        width: 100%;
+        float: none;
+        padding: 1rem 10rem 3rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/group.*") {
+    .list-view {
+        margin: 3rem;
+    }
+
+    .wrap > .container > * {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .group-view > .row {
+        margin: 0;
+        width: auto;
+    }
+
+    .group-view > .row > * {
+        padding: 1.5rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/.*") {
+    /* Card */
+    .contest-view #p0 .problem-view .row .problem-view,
+    .contest-view #p0 .problem-view .row .problem-info,
+    .progress {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .wrap > .container {
+        margin: -20px 0;
+    }
+
+    /* Contest */
+    .contest-info {
+        padding: 50px 3rem 220px;
+        background: linear-gradient(87deg, #414345 0, #232526 100%) !important;
+        color: white;
+    }
+    
+    .contest-info .text-center a {
+        background-color: #5cb85c;
+        color: white;
+        border-radius: 3px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        transition: all .15s ease;
+        margin: 0;
+        padding: 8px 18px;
+        text-decoration: none;
+        font-size: .5em;
+    }
+
+    .contest-info .text-center a:hover {
+        background-color: rgba(92, 184, 92, .8);
+        color: rgba(255, 255, 255, .9);
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05) !important;
+    }
+    
+    .contest-info .text-center a > span {
+        font-size: .85em;
+    }
+    
+    .contest-info .row {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contest-info .row .text-left,
+    .contest-info .row .text-right {
+        float: right;
+        text-align: right;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .contest-info .row .text-center {
+        margin-top: -6rem;
+    }
+    
+    .contest-info .row .text-left {
+        margin-top: 1rem;
+    }
+    
+    .contest-info .row .text-right {
+        margin-top: -3rem;
+        margin-bottom: -0.3rem;
+    }
+    
+    .contest-info > .text-center {
+        float: right;
+        color: rgb(0, 0, 0, .75);
+        margin: -42px 1rem 0;
+    }
+
+    .contest-title {
+        font-size: 3em;
+        font-weight: bold;
+        margin: 3rem 0 1.5rem;
+        color: white;
+        text-align: left;
+    }
+    
+    .contest-title small {
+        margin: 0 .5rem;
+        position: relative;
+        top: -10px;
+    }
+    
+    .progress {
+        height: 30px;
+    }
+    
+    .progress-bar {
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    .contest-view {
+        margin-top: -250px;
+    }
+
+    .contest-overview {
+        margin: 1rem 3rem;
+    }
+
+    .contest-overview .table-responsive {
+        border: none;
+        margin: 0 5rem;
+        padding: 2rem;
+        width: 100%;
+    }
+
+    table.table-overview {
+        min-width: 0;
+        width: 100%;
+    }
+
+    table.table-overview > tbody > tr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    table.table-overview > tbody > tr > th {
+        width: 30%;
+        text-align: left;
+    }
+
+    table.table-overview > tbody > tr > td {
+        width: 60%;
+        text-align: left;
+    }
+
+    table.table-overview > tbody > tr:first-child > th:last-of-type,
+    table.table-overview > tbody > tr:first-child > td:last-of-type {
+        position: relative;
+        top: 2.5em;
+    }
+
+    table.table-overview > tbody > tr:last-child > th:first-of-type,
+    table.table-overview > tbody > tr:last-child > td:first-of-type {
+        position: relative;
+        top: -2.5em;
+    }
+
+    .contest-overview hr,
+    .contest-overview .clearfix {
+        display: none;
+    }
+
+    .contest-view .legend-strip {
+        margin: 1.8rem auto 0 !important;
+        padding: .8rem !important;
+        width: max-content;
+    }
+
+    .contest-view .table-legend {
+        border: none;
+        float: none !important;
+    }
+
+    .contest-view .problem-view .row {
+        width: auto;
+        margin: 0 3rem;
+    }
+
+    .contest-view > #p0 > div:not(.problem-view) > * {
+        padding: 1rem;
+    }
+
+    .contest-view > #p1 {
+        width: auto;
+        margin: 0 3rem;
+    }
+
+    .solution-search {
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+
+    .solution-index {
+        margin: 0 !important;
+    }
+
+    .solution-index > #p0 > #w1 {
+        padding: 1rem;
+    }
+    
+    .panel {
+        border: none;
+        background: unset;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/view.*") {
+    /* Card */
+    .contest-view > #p0 > div:not(.problem-view) > * {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .contest-overview > .well {
+        float: right;
+        width: calc(30% - .5rem);
+    }
+
+    .contest-overview > *:not(.well) {
+        float: left;
+        width: calc(70% - .5rem) !important;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/standing.*") {
+    /* Card */
+    .contest-overview {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+    
+    .contest-overview {
+        margin: 0 3rem 3rem;
+        padding: .1rem;
+    }
+    
+    .contest-overview .legend-strip {
+        margin: .3rem !important;
+        float: right;
+    }
+    
+    .contest-overview .table-responsive {
+        margin: 0 auto;
+        padding: 1rem 2rem !important;
+    }
+    
+    .contest-overview > p {
+        padding: 0 !important;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/clarify.*") {
+    .contest-view > #p0 > div > * {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+    
+    .contest-view > #p0 > div {
+        margin-top: 0 !important;
+    }
+    
+    .contest-view > #p0 {
+        margin: 0 3rem;
+    }
+}
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/(index)?") {
+    /* Index */
+    .wrap > .container {
+        margin: 0 5rem;
+        width: auto;
+    }
+
+    .contest-index {
+        padding: 1.5rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/wiki.*") {
+    .wrap > .container > .row {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* Wiki */
+    .wiki-contetn {
+        padding: 1rem;
+    }
+}
+@-moz-document regexp(".*39\\.108\\.130\\.48/admin.*") {
+    .col-md-2,
+    .col-md-10 {
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.5rem;
+        margin: 0 auto 2rem;
+        background-color: #fcfcfc !important;
+    }
+
+    .col-md-2 {
+        width: calc(25% - .5em);
+    }
+
+    .col-md-10 {
+        width: calc(75% - .5em);
+    }
+}
