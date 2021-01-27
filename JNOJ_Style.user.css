@@ -694,7 +694,7 @@
     }
 }
 
-@-moz-document regexp(".*39\\.108\\.130\\.48/site.*") {
+@-moz-document regexp(".*39\\.108\\.130\\.48/(site.*)?") {
     .container > .row {
         margin: 0;
         padding: 0;
