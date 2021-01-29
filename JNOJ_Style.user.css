@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           JNOJ
 @namespace      github.com/fidelxyz/JNOJ_Userstyle
-@version        1.0.1
+@version        1.0.2
 @description    A style for JNOJ.
 @author         Fidel Yin
 ==/UserStyle== */
@@ -390,9 +390,6 @@
     .input-group button {
         border-radius: 4px !important;
         box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 rgba(0, 0, 0, .02);
-    }
-
-    .input-group button {
         margin-left: 3px;
     }
 
@@ -520,6 +517,10 @@
         margin: 0 3rem;
     }
 
+    div.alert {
+        margin: 1rem 3rem;
+    }
+
     /* Card */
     .news-view,
     .container > .row > *,
@@ -620,14 +621,9 @@
         padding: 0;
     }
 
-    .container .row,
     .container .breadcrumb {
         width: 95%;
-        margin: 0 auto;
-    }
-
-    .container .breadcrumb {
-        margin-bottom: 1rem;
+        margin: 1rem 5rem;
     }
 
     /* Problem */
@@ -720,6 +716,7 @@
     }
 
     .container > .row {
+        margin: 0;
         width: 100%;
     }
 
@@ -1217,6 +1214,38 @@
     }
 }
 
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/register.*") {
+
+    .wrap > .container > * {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .wrap > .container > a {
+        background-color: #5cb85c;
+        color: white;
+        border-radius: 3px;
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+        transition: all .15s ease;
+        padding: 8px 18px;
+        text-decoration: none;
+    }
+
+    .wrap > .container > a:hover {
+        background-color: rgba(92, 184, 92, .8);
+        color: rgba(255, 255, 255, .9);
+        box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05) !important;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/contest/user.*") {
+
+    .contest-index {
+        margin: 0 3rem;
+        padding: 2rem;
+    }
+}
+
 @-moz-document regexp(".*39\\.108\\.130\\.48/wiki.*") {
     .wrap > .container > .row {
         margin: 0 auto;
@@ -1244,5 +1273,6 @@
 
     .col-md-10 {
         width: calc(75% - .5em);
+        padding: 0 2rem;
     }
 }
