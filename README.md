@@ -20,7 +20,7 @@
 
 2. 安装 CSS 样式。
 
-    **[点我安装](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle/JNOJ_Style.user.css)**
+    **[点我安装](https://cdn.jsdelivr.net/gh/Fidelxyz/JNOJ_Userstyle@latest/JNOJ_Style.user.css)**
 
 # 截图
 
