@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           JNOJ
 @namespace      github.com/fidelxyz/JNOJ_Userstyle
-@version        1.0.2
+@version        1.0.3
 @description    A style for JNOJ.
 @author         Fidel Yin
 ==/UserStyle== */
@@ -368,7 +368,9 @@
     }
 
     .input-group > input,
-    .input-group > select {
+    .input-group > select,
+    .form-group > input,
+    .form-group > select {
         transition: box-shadow .15s ease;
         border: none;
         border-radius: 4px;
@@ -377,7 +379,9 @@
     }
 
     .input-group > input:focus,
-    .input-group > select:focus {
+    .input-group > select:focus,
+    .form-group > input:focus,
+    .form-group > select:focus {
         box-shadow: 0 4px 6px rgba(50, 50, 93, .08), 0 1px 3px rgba(0, 0, 0, .05);
     }
 
@@ -523,7 +527,6 @@
 
     /* Card */
     .news-view,
-    .container > .row > *,
     .group-view > .row > *,
     #p0 > .col-md-9,
     .problem-left,
@@ -531,18 +534,33 @@
     .solution-index #w1,
     .solution-search,
     .rating-index .row .col-md-8,
-    .contest-index,
-    .user-view,
     .stats-content,
     .gutter,
     .nav-tabs,
     .pagination,
     .card {
+        transition: all .15s ease;
         box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
         border-radius: 0.4rem;
         margin: 0 auto 2rem;
         background-color: #fcfcfc !important;
         border: none;
+    }
+
+    .news-view:hover,
+    .group-view > .row > *:hover,
+    #p0 > .col-md-9:hover,
+    .problem-left:hover,
+    .problem-right:hover,
+    .solution-index #w1:hover,
+    .solution-search:hover,
+    .rating-index .row .col-md-8:hover,
+    .stats-content:hover,
+    .gutter:hover,
+    .nav-tabs:hover,
+    .pagination:hover,
+    .card:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
     }
 
     /* Tabs */
@@ -681,11 +699,6 @@
         padding: 2rem;
     }
 
-    /* User */
-    .user-view {
-        padding: 1rem 2rem;
-    }
-
     /* CodeMirror */
     .CodeMirror pre {
         margin: unset !important;
@@ -695,6 +708,20 @@
 }
 
 @-moz-document regexp(".*39\\.108\\.130\\.48/(site.*)?") {
+    /* Card */
+    .container > .row > * {
+        transition: all .15s ease;
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .container > .row > *:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
+    }
+
     .container > .row {
         margin: 0;
         padding: 0;
@@ -926,11 +953,19 @@
     .contest-view #p0 .problem-view .row .problem-info,
     .progress,
     .contest-desc {
+        transition: all .15s ease;
         box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
         border-radius: 0.4rem;
         margin: 0 auto 1rem;
         background-color: #fcfcfc !important;
         border: none;
+    }
+
+    .contest-view #p0 .problem-view .row .problem-view:hover,
+    .contest-view #p0 .problem-view .row .problem-info:hover,
+    .progress:hover,
+    .contest-desc:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
     }
 
     .wrap > .container {
@@ -1136,11 +1171,16 @@
 @-moz-document regexp(".*39\\.108\\.130\\.48/contest/view.*") {
     /* Card */
     .contest-view > #p0 > div:not(.problem-view) > * {
+        transition: all .15s ease;
         box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
         border-radius: 0.4rem;
         margin: 0 auto 1rem;
         background-color: #fcfcfc !important;
         border: none;
+    }
+
+    .contest-view > #p0 > div:not(.problem-view) > *:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
     }
 
     .contest-overview > .well {
@@ -1156,12 +1196,19 @@
 
 @-moz-document regexp(".*39\\.108\\.130\\.48/contest/standing.*") {
     /* Card */
+    .contest-index,
     .contest-overview {
+        transition: all .15s ease;
         box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
         border-radius: 0.4rem;
         margin: 0 auto 1rem;
         background-color: #fcfcfc !important;
         border: none;
+    }
+
+    .contest-index:hover,
+    .contest-overview:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
     }
 
     .contest-overview {
@@ -1185,12 +1232,18 @@
 }
 
 @-moz-document regexp(".*39\\.108\\.130\\.48/contest/clarify.*") {
+    /* Card */
     .contest-view > #p0 > div > * {
+        transition: all .15s ease;
         box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
         border-radius: 0.4rem;
         margin: 0 auto 1rem;
         background-color: #fcfcfc !important;
         border: none;
+    }
+
+    .contest-view > #p0 > div > *:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
     }
 
     .contest-view > #p0 > div {
@@ -1203,6 +1256,20 @@
 }
 
 @-moz-document regexp(".*39\\.108\\.130\\.48/contest/(index)?") {
+    /* Card */
+    .contest-index {
+        transition: all .15s ease;
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .contest-index:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
+    }
+
     /* Index */
     .wrap > .container {
         margin: 0 5rem;
@@ -1247,6 +1314,20 @@
 }
 
 @-moz-document regexp(".*39\\.108\\.130\\.48/wiki.*") {
+    /* Card */
+    .wrap > .container > .row > * {
+        transition: all .15s ease;
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .wrap > .container > .row > *:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
+    }
+
     .wrap > .container > .row {
         margin: 0 auto;
         width: 100%;
@@ -1259,12 +1340,19 @@
 }
 
 @-moz-document regexp(".*39\\.108\\.130\\.48/admin.*") {
+    /* Card */
     .col-md-2,
     .col-md-10 {
+        transition: all .15s ease;
         box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
         border-radius: 0.5rem;
         margin: 0 auto 2rem;
         background-color: #fcfcfc !important;
+    }
+
+    .col-md-2:hover,
+    .col-md-10:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
     }
 
     .col-md-2 {
@@ -1274,5 +1362,64 @@
     .col-md-10 {
         width: calc(75% - .5em);
         padding: 0 2rem;
+    }
+
+    .solution-search {
+        padding: 1rem;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/polygon.*") {
+    /* Card */
+    .problem-index,
+    .problem-create {
+        transition: all .15s ease;
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .problem-index:hover,
+    .problem-create:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
+    }
+
+    .problem-index,
+    .problem-create {
+        padding: 1rem 2rem;
+    }
+
+    .breadcrumb {
+        margin: 1rem 0 !important;
+    }
+}
+
+@-moz-document regexp(".*39\\.108\\.130\\.48/user.*") {
+    /* Card */
+    .user-view,
+    .user-form {
+        transition: all .15s ease;
+        box-shadow: 0 5px 15px rgba(50, 50, 93, .1), 0 5px 8px rgba(0, 0, 0, .07)!important;
+        border-radius: 0.4rem;
+        margin: 0 auto 1rem;
+        background-color: #fcfcfc !important;
+        border: none;
+    }
+
+    .user-view:hover,
+    .user-form:hover {
+        box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07)!important;
+    }
+
+    /* User */
+    .user-view {
+        padding: 1rem 2rem;
+    }
+
+    .user-form {
+        padding: 2rem !important;
+        margin: 1rem 3rem;
     }
 }
